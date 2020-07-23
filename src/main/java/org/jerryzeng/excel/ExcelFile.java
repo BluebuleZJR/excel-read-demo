@@ -22,8 +22,8 @@ public interface ExcelFile extends Closeable {
    * */
   boolean isEmpty();
   /**
-   * 获取最后一行行号
-   * @return 可能会为null
+   * 获取最后一行行号，从零开始数
+   * @return lastRowNum
    * */
   int getLastRowNum();
   /**

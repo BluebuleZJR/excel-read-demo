@@ -1,6 +1,5 @@
 package org.jerryzeng.excel;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import org.apache.commons.io.FilenameUtils;
